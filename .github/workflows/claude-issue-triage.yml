@@ -171,3 +171,5 @@ jobs:
           - Surface solutions from past issues - often the fastest path to helping.
           - Connecting regressions to specific changes is extremely valuable.
           - Link issues with #number so they're clickable.
+env:
+  ANTHROPIC_BASE_URL: ${{ secrets.ANTHROPIC_BASE_URL }}
